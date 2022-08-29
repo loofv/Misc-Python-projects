@@ -2,6 +2,7 @@ import random
 print('Hello and welcome to the guessing game!')
 
 val = random.randint(0, 100)
+print('val: ' + str(val))
 
 print('The objective of the game is to guess what number I am thinking of.')
 
